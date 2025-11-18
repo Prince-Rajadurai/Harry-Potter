@@ -1,0 +1,568 @@
+html {
+    font-size: 16px;
+    scrollbar-width: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: clip;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #0c0c1d;
+    color: white;
+}
+
+
+header {
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.top-icon {
+    padding-top: 3%;
+    padding-left: 2%;
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+}
+
+
+.fa-brands {
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.logo-box {
+    padding: 1%;
+    width: 15%;
+    margin-left: 15%;
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+}
+
+.log {
+    margin: 2% 0% 2% 2%;
+    justify-content: space-around;
+    width: 30%;
+}
+
+#search {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 40%;
+    padding: 2%;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+input{
+    color: white;
+}
+
+button,
+input {
+    font-size: 1.1rem;
+}
+
+.login {
+    color: white;
+    width: 20%;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 50px;
+    background-color: #0c0c1d;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: white;
+    color: #0c0c1d;
+}
+
+.signup {
+    cursor: pointer;
+    color: white;
+    width: 20%;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 50px;
+    background-color: rgb(87, 88, 255);
+    border: 2px solid rgb(87, 88, 255);
+}
+
+.signup:hover {
+    background-color: #0c0c1d;
+}
+
+.search-icon {
+    margin-top: 3.5%;
+}
+
+nav {
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+.navbar {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-left: 4%;
+    margin-right: 4%;
+    cursor: pointer;
+}
+
+.navbar ul li:hover {
+    text-decoration: underline 2px white;
+    text-underline-offset: 5px;
+}
+.learn-more {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-size: .8rem;
+    font-weight: 600;
+    padding: .7%;
+    width: 100%;
+    background-color: rgb(254, 51, 45);
+    color: white;
+}
+
+.learn {
+    opacity: 0.8;
+    font-weight: 100;
+    text-decoration: 1px underline white;
+    font-size: 0.7rem;
+    text-underline-offset: 2px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#pop-up:target{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pop-up{
+    display: none;
+    position: fixed;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.other-tab{
+    padding: 2%;
+    width: 40%;
+    height: 40%;
+    background-color: white;
+    text-align: center;
+}
+
+.thank-you{
+    text-align: center;
+    width: 68%;
+    margin: 0% 16%;
+    color: #00001b;
+    font-family: "DM Serif Display", serif;
+    font-size: 3rem;
+}
+.warn{
+    color: #00001b;
+    text-align: center;
+    margin: 4% 0%;
+    opacity: 0.8;
+    width: 100%;
+    font-size: 1.5rem;
+}
+.out{
+    color: white;
+    margin: 0% 31%;
+    margin-bottom: 3%;
+    padding: 2% 10%;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    background-color: rgb(87, 88, 255);
+    border: 2px solid rgb(87, 88, 255);
+}
+.list-wi{
+    width: 20%;
+}
+.go-back{
+    text-decoration: 2px underline rgb(87, 88, 255);
+    text-underline-offset: .1rem;
+    color: rgb(87, 88, 255);
+}
+.go-back:hover{
+    color: #00001b;
+    text-decoration: 2px underline #00001b;
+    
+}
+.out:hover{
+    background-color: #00001b;
+}
+.footer {
+    padding: 30px;
+    margin:4px;
+    border: 1px solid white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    row-gap: 20px;
+}
+
+.footer-link a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer-link a:hover {
+    text-decoration: underline;
+}
+
+.footer-logo {
+    grid-column: span 4;
+}
+
+.social-icons {
+    grid-column: span 4;
+    margin-bottom: 20px;
+}
+
+.social-icons i {
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+.footer-text {
+    grid-column: span 4;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.banner{
+    width: 100%;
+    height: 70%;
+    background-image: url(../images/News-Hub.webp);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.banner1{
+    width: 100%;
+    height: 70%;
+    background-image: url(../images/Feature-Hub.webp);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.banner2{
+    width: 100%;
+    height: 70%;
+    background-image: url(../images/roul-hub.webp);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.books{
+    color: black;
+    width: 100%;
+}
+.con-head{
+   
+    font-size: 5rem;
+    font-family: "DM Serif Display", serif;
+}
+.con-des{
+     margin: 3%;
+    font-size: 2rem;
+    font-weight: 100;
+    width: 40%;
+    opacity: 0.8;
+}
+.white{
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    color: black;
+    background-color: white;
+    width: 100%;
+    padding: 1%;
+    border: 1px solid white;
+}
+.lat-head{
+     font-family: "DM Serif Display", serif;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 3%;
+}
+.sir{
+    display: flex;
+    width: 70%;
+    height: 80%;
+    margin-bottom: 7.5%;
+    margin-left: 6%;
+}
+.pen-sir{
+    width: 55%;
+    height: 100%;
+}
+.letter{
+    padding: 7% 10% 4% 6%;
+    width: 45%;
+    height: 100%;
+    background-color: #00001b;
+    position: relative;
+    right: 4%;
+    color: white;
+    margin-top: 6%;
+}
+.spot{
+    opacity: 0.9;
+    margin-bottom: 3%;
+}
+.lerge{
+    font-size: 2.5rem;
+    margin-bottom: 3%;
+    font-family: "DM Serif Display", serif;
+}
+.state{
+    opacity: 0.9;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    margin-bottom: 3%;
+
+}
+.light{
+    opacity: 0.6;
+    margin-bottom: 6%;
+}
+.read{
+    padding: 4% 10%;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+    background-color: #00001b;
+}
+.read:hover{
+    background-color: white;
+    color: #00001b;
+}
+.two-books{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    height: 80%;
+}
+.book{
+    text-align: center;
+    width: 45%;
+}
+.book-set{
+    margin-bottom: 2%;
+    width: 100%;
+    height: 75%;
+
+}
+.line{
+    margin-bottom: 3%;
+    width: 80%;
+    height: 1px;
+    margin-top: 3%;
+    border: 1px solid grey;
+}
+.extra-6{
+    padding: 0% 10%;
+    padding-bottom: 4%;
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 91%;
+    gap: 2%;
+}
+.contain{
+    cursor: pointer;
+    text-align: center;
+    width: 32%;
+    height: 49%;
+}
+    .contains{
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.fit{
+    width: 100%;
+    height: 70%;
+}
+.main-area{
+    color: black;
+    width: 100%;
+    height: 30%;
+    padding: 0% 3%
+}
+button{
+    cursor: pointer;
+}
+.contains:hover{
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+.books:hover{
+    filter: brightness(120%);
+}
+.{
+    animation: l-to-r 3s ease-in;
+    animation-timeline: view();
+    animation-range: entry 5% cover 40%
+}
+.{
+    animation: r-to-l 3s ease-in;
+    animation-timeline: view();
+    animation-range: entry 5% cover 40%
+}
+.sir, .book, .contain{
+    animation: b-to-t 3s ease-in;
+    animation-timeline: view();
+    animation-range: entry 5% cover 30%
+}
+@keyframes b-to-t{
+    from{
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes l-to-r{
+    from{
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes r-to-l{
+    from{
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@media (max-width:1024px){
+    html{
+        font-size: 12px;
+    }
+    .login, .signup{
+        font-size: 1rem;
+    }
+}
+@media (max-width:768px){
+    html{
+        font-size: 10px;
+    }
+    .login, .signup{
+        font-size: .9rem;
+    }
+}
+@media (max-width:425px){
+    html{
+        font-size: 6px;
+    }
+    .login, .signup{
+        font-size: .7rem;
+    }
+    .banner, .banner1, .banner2{
+        height: 50%;
+    }
+    .two-books{
+        flex-wrap: wrap;
+    }
+    .book{
+        width: 90%;
+        margin: 5%;
+    }
+    .extra-6{
+        flex-wrap: wrap;
+    }
+    .contain{
+        width: 49%;
+    }
+    .sir{
+        width: 90%;
+    }
+}
+@media (max-width:375px){
+    html{
+        font-size: 5px;
+    }
+    .banner, .banner1, .banner2{
+        height: 40%;
+    }
+}
+@media (max-width:320px){
+    html{
+        font-size: 4px;
+    }
+    .banner, .banner1, .banner2{
+        height: 30%;
+    }
+}
