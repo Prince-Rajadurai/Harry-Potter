@@ -15,7 +15,7 @@ body {
 }
 
 .back {
-    background-image: url(../images/login-background.jpg);
+    background-image: url("../images/login-background.jpg");
     background-size: cover;
     background-position: top;
     width: 100%;

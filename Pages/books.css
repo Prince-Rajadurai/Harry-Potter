@@ -308,7 +308,7 @@ a {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../images/book-back.webp);
+    background-image: url("../images/book-back.webp");
     background-size: cover;
     background-position: top;
     filter: brightness(80%);

@@ -277,7 +277,7 @@ a{
 }
 .hat{
     width: 100%;
-    background-image: url(../images/hat-background.jpg);
+    background-image: url("../images/hat-background.jpg");
     background-size: contain;
     padding: 10%;
     display: flex;

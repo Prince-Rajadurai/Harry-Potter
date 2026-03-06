@@ -241,13 +241,13 @@ h1{
     padding: 2%;
     height: 90%;
     width: 100%;
-    background-image: url(../images/quiz-start.jpg);
+    background-image: url("../images/quiz-start.jpg");
     background-size: cover;
     background-position: center;
 }
 .book-boy{
     margin: 6%;
-    background-image: url(../images/boy-with-book.webp);
+    background-image: url("../images/boy-with-book.webp");
     filter: contrast(102%);
     background-size: cover;
     background-position: center;
