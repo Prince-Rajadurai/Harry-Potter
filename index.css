@@ -167,7 +167,7 @@ nav {
 .image-shuffle {
     width: 100%;
     padding-bottom: 10%;
-    background-image: url(../images/harry-boy.webp);
+    background-image: url("images/harry-boy.webp");
     background-size: cover;
     box-shadow: 25px 25px 50px 0 #0c0c1d inset, -25px -25px 23px 0 #0c0c1d inset;
     animation: changebg 50s ease-in 0s infinite;
@@ -175,23 +175,23 @@ nav {
 
 @keyframes changebg {
     0% {
-        background-image: url(../images/harry-boy.webp);
+        background-image: url("images/harry-boy.webp");
     }
 
     20% {
-        background-image: url(../images/harry-boy1.avif);
+        background-image: url("images/harry-boy1.avif");
     }
 
     40% {
-        background-image: url(../images/harry-boy2.webp);
+        background-image: url("images/harry-boy2.webp");
     }
 
     60% {
-        background-image: url(../images/harry-boy3.jpg);
+        background-image: url("images/harry-boy3.jpg");
     }
 
     80% {
-        background-image: url(../images/harry-boy4.jpg);
+        background-image: url("images/harry-boy4.jpg");
     }
 }
 
@@ -275,7 +275,7 @@ nav {
     padding-bottom: 0%;
 
     width: 100%;
-    background-image: url(../images/stars.png), linear-gradient(#15111D, #2d2f4c);
+    background-image: url(images/stars.png), linear-gradient(#15111D, #2d2f4c);
 
 }
 
@@ -345,7 +345,7 @@ nav {
     width: 95%;
     height: 100%;
     margin-left: 5%;
-    background-image: url(../images/double-line-frame.png);
+    background-image: url(images/double-line-frame.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -493,7 +493,7 @@ a{
     margin-top: .1%;
     width: 100%;
     padding-top: 5%;
-    background-image: url(../images/stars2.png), linear-gradient(180deg, #120b0e, #474083 121.35%);
+    background-image: url(images/stars2.png), linear-gradient(180deg, #120b0e, #474083 121.35%);
     background-position: top;
 
 
@@ -532,7 +532,7 @@ a{
     padding: 2% 15% 0% 15%;
     width: 100%;
    
-    background-image: url(../images/stars2.png), linear-gradient(180deg, #110b0e, #373737 121.35%);
+    background-image: url(images/stars2.png), linear-gradient(180deg, #110b0e, #373737 121.35%);
     background-position: top;
 }
 
@@ -564,7 +564,7 @@ a{
 .quiz-img {
     cursor: pointer;
     text-align: center;
-    background-image: url(../images/dobby.webp);
+    background-image: url(images/dobby.webp);
     border-radius: 20px;
     box-shadow: 0px 0px 50px 0px #00001b inset, 0px 0px 50px 0px #00001b;
     background-size: cover;
@@ -580,7 +580,7 @@ a{
 .quiz-img1 {
     cursor: pointer;
     text-align: center;
-    background-image: url(../images/aunty.webp);
+    background-image: url(images/aunty.webp);
     border-radius: 20px;
     box-shadow: 0px 0px 50px 0px #00001b inset, 0px 0px 50px 0px #00001b;
     background-size: cover;
@@ -596,7 +596,7 @@ a{
 .quiz-img2 {
     cursor: pointer;
     text-align: center;
-    background-image: url(../images/study-boy.webp);
+    background-image: url(images/study-boy.webp);
     border-radius: 20px;
     box-shadow: 0px 0px 50px 0px #00001b inset, 0px 0px 50px 0px #00001b;
     background-size: cover;
@@ -727,7 +727,7 @@ a{
     padding-top: 5%;
     width: 100%;
 
-    background-image: url(../images/stars2.png), linear-gradient(180deg, #18150e, #554936 121.35%);
+    background-image: url(images/stars2.png), linear-gradient(180deg, #18150e, #554936 121.35%);
     background-size: cover;
     background-position: top;
 }
@@ -900,13 +900,13 @@ a{
 .switch-card {
     text-align: center;
     width: 100%;
-    background-image: url(../images/stars.png), linear-gradient(180deg, #0e0812, #443455 121.35%);
+    background-image: url(images/stars.png), linear-gradient(180deg, #0e0812, #443455 121.35%);
 }
 .magical-picks {
     text-align: center;
     width: 100%;
     
-    background-image: url(../images/stars.png), linear-gradient(180deg, #0f0f11, #3f5468 121.35%);
+    background-image: url(images/stars.png), linear-gradient(180deg, #0f0f11, #3f5468 121.35%);
 
 }
 .disc-img{
